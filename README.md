@@ -1,7 +1,8 @@
-# th78 Algorithm Study(2.23일 시작)
+# th78 Algorithm Study(2.23 시작)
 
 <hr>
- 
+
+파일 이름은 닉네임_문제이름 으로 해주세요!
 
 | Date       | Algorithm | Baekjoon Problem | Programmers |
 |------------|-----------|------------------|-------------|
