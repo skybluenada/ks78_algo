@@ -13,7 +13,7 @@ public class Stack3 {
 		int t = Integer.parseInt(br.readLine());
 
 		for(int n=0; n<t; n++) {
-			int top = -1;
+			int top = 0;
 			int countPush = 0;
 			int countPop = 0;
 			String str = br.readLine();
