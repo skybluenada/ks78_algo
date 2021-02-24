@@ -36,7 +36,7 @@ public class Main {
 				} else {
 					bw.write(stack.pop() + "\n");
 				}
-				
+				break;
 			case "size" :
 				bw.write(stack.size() + "\n");
 				break;
