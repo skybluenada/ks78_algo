@@ -26,29 +26,28 @@ public class Stack3 {
 			Stack<Character> stack = new Stack<>();
 			for(int i=0; i<arr.length;i++) {
 
-					if(arr[i] == '(') {
-						countPush++;
-						stack.push(arr[i]);
-					}else if(arr[i] == ')'){
-						countPop++;
-						if(stack.empty()) {
-							top=-1;
-							break;
-						}else {
-							stack.pop();
-						}
-					}else if(stack.empty()){
+				if(arr[i] == '(') {
+					countPush++;
+					stack.push(arr[i]);
+				}else if(arr[i] == ')'){
+					countPop++;
+					if(stack.empty()) {
 						top=-1;
-						break;	
-					}//end outer if
-				}//end for
+						break;
+					}else {
+						stack.pop();
+					}
+				}else if(stack.empty()){
+					top=-1;
+					break;	
+				}//end outer if
+			}//end for
 
-				if((top==-1) && (countPush-countPop==0)) {
-					sb.append("YES").append("\n");
-				} else {
-					sb.append("NO").append("\n");
-				}//end if
-				stack.clear();
+			if((top==-1) && (countPush-countPop==0)) {
+				sb.append("YES").append("\n");
+			} else {
+				sb.append("NO").append("\n");
+			}//end if
 		}//outer for		
 		System.out.println(sb.toString());
 
