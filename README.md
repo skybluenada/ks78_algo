@@ -6,7 +6,7 @@
 
 | Date       | Algorithm | Baekjoon Problem | Programmers |
 |------------|-----------|------------------|-------------|
-| 2021.02.23 | Stack     | 10828, 9012      |             |
-| 2021.02.24 | Queue     | 10845, 1158      |             |
+| 2021.02.23 | Stack     | [10828](https://www.acmicpc.net/problem/10828), [9012](https://www.acmicpc.net/problem/9012)      |             |
+| 2021.02.24 | Queue     | [10845](https://www.acmicpc.net/problem/10845), [1158](https://www.acmicpc.net/problem/1158)      |             |
 |            |           |                  |             |
 
