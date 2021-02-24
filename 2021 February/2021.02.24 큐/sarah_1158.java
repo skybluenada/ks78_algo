@@ -36,11 +36,9 @@ public class Main_1158 {
 			}else if(q.size()==1) {
 				sb.append(q.poll());
 			}
-		}
-		
+		}//end while
 		System.out.println("<"+sb.toString()+">");
-	}
-
+	}//main
 }
 
 
