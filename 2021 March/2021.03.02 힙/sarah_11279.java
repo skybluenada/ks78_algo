@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class PriorityQueue_2941 {
+public class PriorityQueue_11279 {
 	public static void main(String[] args) throws Exception {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
