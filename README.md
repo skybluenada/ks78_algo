@@ -19,4 +19,4 @@
 | Date       | Algorithm | Baekjoon Problem | Programmers |
 |------------|-----------|------------------|-------------|
 | 2021.03.02 | Heap     | [11279 최대 힙](https://www.acmicpc.net/problem/11279), [1927 최소 힙](https://www.acmicpc.net/problem/1927)      |             |
-| 2021.03.03 | Priority Queue     | [11286 절댓값 힙](https://www.acmicpc.net/problem/11286), [1766 문제집](https://www.acmicpc.net/problem/1766)      |             |
+| 2021.03.03 | Heap     |       |  더 맵게, 디스크 컨트롤러   |
