@@ -10,6 +10,7 @@ public class HeapDisk {
 	        PriorityQueue<Double> pq = new PriorityQueue<Double>();
 	   
 	        int answer = 0;
+		int count = 0;
 	        int first = 0;
 	        int second = jobs[0][1];
 	        double addTime = 0;
@@ -17,13 +18,14 @@ public class HeapDisk {
 	        double ready = 0;
 	        double request = 0;
 
-	        while(pq.size() != jobs.length-2) {  
+	        while(pq.size() != jobs.length-1-count) {  
 		        for(int i=1; i<jobs.length; i++) {
 			        if(first<jobs[i][0] && jobs[i][0]<=second) {
 			        	pq.offer((double)(jobs[i][1])+(double)(jobs[i][0])/10);
 			        }
 		        }//end for
 		        poll = pq.poll();
+			count++;
 		        addTime = Math.floor(poll);
 		        first = second;
 		        second += addTime;
