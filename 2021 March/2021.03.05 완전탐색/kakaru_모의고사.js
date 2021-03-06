@@ -2,7 +2,7 @@ function solution(answers) {
     var answer = [];
     var supo1 = [1,2,3,4,5];
     var supo2 = [2,1,2,3,2,4,2,5];
-    var supe3 = [3,3,1,1,2,2,4,4,5,5];
+    var supo3 = [3,3,1,1,2,2,4,4,5,5];
     var su = [0,0,0];
     for(var i = 0; i <answers.length; i++){
         if(supo1[i%5]==answers[i]){
@@ -15,12 +15,9 @@ function solution(answers) {
             su[2]++;
         };
     };
-    var su2 = su;
-    su2.sort(function(a, b) { // 내림차순
-        return b - a;
-    });
+    var max = Math.max(su[0], su[1], su[2])
     for(var i = 0; i < 3; i++){
-        if(su[i]== su2[0]){
+        if(su[i]== max){
             answer.push(i+1);
         }
     }
