@@ -11,7 +11,7 @@ function solution(answers) {
         if(supo2[i%8]==answers[i]){
             su[1]++;
         };
-        if(supo2[i%10]==answers[i]){
+        if(supo3[i%10]==answers[i]){
             su[2]++;
         };
     };
