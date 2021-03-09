@@ -23,4 +23,4 @@
 | 2021.03.04 | Sort     |       |  정렬 - [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748), [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746), [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)   |
 | 2021.03.04 | Brute-force Search     |       |  완전탐색 - [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840), [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839), [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)   |
 | 2021.03.04 | Hash     | [1302 베스트셀러](https://www.acmicpc.net/problem/1302)      |  해시 - [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)   |
-| 2021.03.09 | Hash     | [10872 팩토리얼](https://www.acmicpc.net/problem/10872)      |  [10870 피보나치 수 5](https://www.acmicpc.net/problem/10870)   |
+| 2021.03.09 | Hash     | [10872 팩토리얼](https://www.acmicpc.net/problem/10872), [10870 피보나치 수 5](https://www.acmicpc.net/problem/10870)      |     |
