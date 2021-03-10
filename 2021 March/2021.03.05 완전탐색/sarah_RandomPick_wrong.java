@@ -68,8 +68,7 @@ public class SearchRandomPick {
         
       	int[] answer = new int[countP];
         if(countP < 3) {  
-        	
-        	if(poll[0] == count1) {
+            if(poll[0] == count1) {
             	answer[0] = 1;
             }else if(poll[0] == count2){
             	answer[0] = 2;
