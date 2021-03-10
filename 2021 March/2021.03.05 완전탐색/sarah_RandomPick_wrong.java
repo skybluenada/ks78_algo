@@ -1,5 +1,5 @@
 package Programmers;
-
+//테스트 2개 실패 ㅠㅠ 
 import java.util.*;
 
 public class SearchRandomPick {
