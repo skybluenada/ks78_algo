@@ -25,3 +25,4 @@
 | 2021.03.04 | Hash     | [1302 베스트셀러](https://www.acmicpc.net/problem/1302)      |  해시 - [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)   |
 | 2021.03.09 | Recursion     | [10872 팩토리얼](https://www.acmicpc.net/problem/10872), [10870 피보나치 수5](https://www.acmicpc.net/problem/10870)      |     |
 | 2021.03.10 | Tree     | [1991 트리 순회](https://www.acmicpc.net/problem/1991), [11725 트리의 부모 찾기](https://www.acmicpc.net/problem/11725)      |     |
+| 2021.03.11 | Number theory     | [1978 소수 찾기](https://www.acmicpc.net/problem/1978), [2609 최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)      |     |
