@@ -1,5 +1,5 @@
 package Programmers;
-//테스트 2개 실패 ㅠㅠ 
+
 import java.util.*;
 
 public class SearchRandomPick {
@@ -68,7 +68,8 @@ public class SearchRandomPick {
         
       	int[] answer = new int[countP];
         if(countP < 3) {  
-            if(poll[0] == count1) {
+        	
+        	if(poll[0] == count1) {
             	answer[0] = 1;
             }else if(poll[0] == count2){
             	answer[0] = 2;
@@ -76,7 +77,13 @@ public class SearchRandomPick {
             	answer[0] = 3;
             }
         	if(countP > 1) {
-        		answer[1] = answer[0]+1;
+        		if(count1 == count2) {
+                	answer[1] = 2;
+                }else if(count2 == count3){
+                	answer[1] = 3;
+                }else {
+                	answer[1] = 3;
+                }
         	}
         }else {
         	answer[0] =1;
@@ -89,11 +96,9 @@ public class SearchRandomPick {
     }
     
     public static void main(String[] args) {
-		int[] answers = {1,2,3,4,5};
+		int[] answers = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
 		
 		solution(answers);
-	
-		
-		
+
 	}
 }
